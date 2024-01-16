@@ -2,7 +2,7 @@
 
 /**
  * _memcpy - Function that copies memory area
- * @src: String pointer 
+ * @src: String pointer
  * @dest: pointer to char
  * @n: integer input
  * Return: Copied memory
