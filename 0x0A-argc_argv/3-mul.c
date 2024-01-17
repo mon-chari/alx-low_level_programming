@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/**              
+/**
  * _atoi - function that converts a string to an integer
  * @s: string to be converted
  * Return: the int converted from the string
@@ -42,16 +42,16 @@ int _atoi(char *s)
 	return (n);
 }
 
-/**               
+/**
  * main - function that multiplies two numbers
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 (Success), 1 (Error)
  */
-                
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
+
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
