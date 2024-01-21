@@ -12,6 +12,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int length_s2;
 	unsigned int i;
 	char *concat_string;
+
 	length_s1 = 0;
 	length_s2 = 0;
 	concat_string = (char *)malloc(length_s1 + n + 1);
