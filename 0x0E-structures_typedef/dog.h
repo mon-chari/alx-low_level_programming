@@ -1,13 +1,5 @@
 #ifndef DOG_H
 #define DOG_H
-#include <stdio.h>
-
-/**
- * struct dog - defines a new type
- * @name: first member
- * @owner: second member
- * @age: third member
- */
 struct dog
 {
 	char name[50];
