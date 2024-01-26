@@ -36,17 +36,13 @@ void print_all(const char * const format, ...)
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
-				{
 					str = "(nil)";
-				}
 				printf("%s", str);
 				found = 1;
 				break;
 		}
 		if (format[i + 1] && found)
-		{
 			printf(", ");
-		}
 		i++;
 	}
 	printf("\n");
